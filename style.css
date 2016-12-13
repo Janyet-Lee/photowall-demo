@@ -1,0 +1,39 @@
+/*
+* @Author: Administrator
+* @Date:   2016-12-13 11:22:40
+* @Last Modified by:   Administrator
+* @Last Modified time: 2016-12-13 14:32:44
+*/
+
+.container{
+	position: relative;
+}
+
+.item{
+	position: absolute;
+	box-shadow: 4px 4px 5px grey;
+	margin: 20px;
+	transition: 0.8s;
+	border-radius: 10px 10px 10px 10px;
+}
+.item:hover{
+	
+	cursor: pointer;
+	-webkit-transform: scale(1.2,1.2 );
+
+}
+.item:active{
+	
+	/*-webkit-transform:translate3d(100px,100px,100px);*/
+	/*-webkit-transform: scale(2,2 );*/
+	-webkit-transform:scaleY(50);
+}
+img{
+	width: 250px;
+	height: 150px;
+	border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.des{
+	text-align:center;
+}
